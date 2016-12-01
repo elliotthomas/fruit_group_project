@@ -7,5 +7,7 @@
   border: solid black 5px;
 }
 button{
-  width
+  display:block;
+  width: 30%;
+  margin: 0px auto;
 }
