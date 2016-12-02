@@ -1,3 +1,8 @@
+body{
+  background-image: url("https://images.freecreatives.com/wp-content/uploads/2015/04/natural-paper-background-texture-hd-5a0b.jpg");
+  background-size: cover;
+}
+
 .title{
   font-weight: bold;
   font-size: 25px;
@@ -5,9 +10,36 @@
 #inv{
   text-align: center;
   border: solid black 5px;
+  background-color: white;
+  border-radius: 25px;
 }
 button{
   display:block;
-  width: 30%;
+  width: auto;
   margin: 0px auto;
+}
+.table{
+  background-color: white;
+}
+#timer, #cash{
+  display: inline-flex;
+  border: solid black 3px;
+  background-color: white;
+  border-radius: 25px;
+
+}
+#timeLeft{
+  font-weight: bold;
+  font-size:  40px;
+
+
+}
+#cash{
+
+  text-align: center;
+
+}
+#randoText{
+  text-align: center;
+  font-size: 40px;
 }
